@@ -1,0 +1,9 @@
+.search-result-post {
+    list-style-type: none;
+    margin: 0em 1em;
+}
+
+.no-search-results {
+    text-align: center;
+    margin: 3em;
+}

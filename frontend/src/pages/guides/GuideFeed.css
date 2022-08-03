@@ -1,0 +1,18 @@
+
+.mb-3card{
+    margin-bottom: 1.5em ;
+    text-align: center;
+    font-family: 	Arial;
+    font-size: 20px;
+    color:#000000;
+    border-radius:11px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(176, 144, 228);
+    padding-top: 0.5em;
+    margin-left: 15.7em;
+    margin-right: 15.7em;
+}
+
+.MatchMe-button{
+
+}

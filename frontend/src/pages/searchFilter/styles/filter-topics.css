@@ -1,0 +1,15 @@
+/* .filter-topics-container {
+
+} */
+
+.filter-topic-btn {
+    border: none;
+    border-radius: 10px;
+    background: rgb(207, 207, 207);
+    padding: 0.2em 0.6em;
+    margin: 0.1em;
+}
+.filter-topic-btn:hover {
+    cursor: pointer;
+    background: rgb(184, 184, 184);
+}

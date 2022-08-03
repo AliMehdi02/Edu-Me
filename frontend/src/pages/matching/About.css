@@ -1,0 +1,59 @@
+.About {
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: -55%;
+  }
+  
+  .About-intro{
+    text-align: left;
+    padding-left: -5%;
+    font-size: 80%;
+  }
+
+  .About-intro p{
+    margin-left: 40%; 
+    font-weight: 50%;
+    
+  }
+  
+  .About-header p {
+    font-weight: bold;
+    margin-bottom: 15%;
+    margin-top: -12%;
+  }
+
+  
+  
+  .About-lists{
+    margin-left: 40%; 
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    justify-content: space-around;
+  }
+
+  .About-learn-list{
+     text-align: left;
+  }
+
+  .About-learn-container
+  {
+    border: 2px purple solid;
+    border-radius:5%;
+    padding:3.5%;
+  }
+
+
+  .About-enjoy-container
+  {
+    border: 2px purple solid;
+    border-radius:5%;
+    padding:3.5%;
+  }
+
+  .About-enjoy-list{
+    text-align: left;
+  }
+
+  
+

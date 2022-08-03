@@ -1,0 +1,63 @@
+.hide-btn:hover, .filter-switch:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.filter-arrow {
+    transition: transform 0.5s;
+    transform: rotate(-90deg);
+}
+
+.filter-switch {
+    width: fit-content;
+    padding-bottom: 0.5em;
+    margin-left: 1em;
+}
+
+.filter-pane {
+  margin: 3em 1.5em;
+}
+
+.filter-pane-elements {  
+    padding: 0.3em;
+    border-radius: 14px;
+    box-shadow: 5px 12px 20px 1px rgba(112, 112, 112, 0.336);
+    margin-top: 0em;
+    border-top: 1px solid rgb(206, 206, 206);
+    max-height: 400px;
+    overflow-y: auto;
+    
+}
+
+.author-name {
+    width: stretch;
+    margin: 1em 0em;
+    border-radius: 10px;
+    border: 1px solid rgb(207, 207, 207);
+    padding: 0.2em;
+    padding-left: 0.5em;
+    background: rgb(228, 228, 228);
+
+}
+.author-name:focus {
+    outline: 2px solid rgb(155, 87, 218);
+    background: rgb(241, 241, 241);
+}
+
+.apply-filter-btn {
+    padding: 0.3em 0.7em;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    background: rgb(199, 143, 252);
+    color: black;
+    border: 1px solid #444;
+}
+.apply-filter-btn:hover {
+    cursor: pointer;
+    background: rgb(177, 110, 240);
+}
+.apply-filter-btn:active {
+    filter:brightness(0.8);
+}

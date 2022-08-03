@@ -1,0 +1,40 @@
+.AllMatches
+{
+  flex-wrap : wrap;
+}
+
+.AllMatches-header
+{
+  margin: 10vh;
+  display: block;
+  /* margin-left: 12%;  */
+  margin-top: 5%; 
+   padding-top: 5%;
+  margin-left: -35vh;
+}
+
+.AllMatches-cards
+{
+   margin-top: 5%;
+   display : flex;
+   justify-content: space-evenly;
+}
+
+.AllMatches-error
+{
+  justify-content: center;
+  width: 20%;
+}
+
+.AllMatches-error h1
+{
+  margin-left: 10%; 
+  padding-left:30%;
+}
+
+.AllMatches-errorMessage
+{
+  margin-left:15%;
+  text-align: center;
+  font-size: 120%;
+}

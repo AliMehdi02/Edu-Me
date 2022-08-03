@@ -1,0 +1,124 @@
+.topic-exp-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media screen and (max-width: 600px) {
+  .topic-exp-box {
+      flex-direction: column;
+      align-items: center;
+  }
+}
+
+.experience-selection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5em;
+    margin-left: 1.2em;
+    margin-right: 4.5em;
+}
+@media screen and (max-width: 600px) {
+  .experience-selection {
+      margin-left: 4.5em;
+  }
+}
+
+.dropdown {
+  width: stretch;
+  user-select: none;
+  margin: 2em 2.5em;
+  position: relative;
+}
+.dropdown .dropdown-btn {
+  padding: 15px 20px;
+  background: #fff;
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+}
+.dropdown-btn:hover {
+  box-shadow: 3px 3px 10px 6px rgba(47, 14, 66, 0.123);
+}
+.dropdown-btn, .dropdown-content {
+    border-radius: 10px;
+}
+.dropdown-content {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.dropdown .dropdown-content {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 3px 3px 10px 6px rgba(47, 14, 66, 0.123);
+  font-weight: 500;
+  color: #333;
+  width: 95%;
+}
+.dropdown .dropdown-content .dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.dropdown .dropdown-content .dropdown-item:hover {
+  background: rgba(152, 47, 212, 0.247);
+}
+
+.radios {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rb2 {
+    width: 1.5em;
+    height: 1.5em;
+}
+.rb3 {
+  width: 2em;
+  height: 2em;
+}
+.rb4 {
+  width: 2.5em;
+  height: 2.5em;
+}
+
+input[type='radio']:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: rgb(129, 35, 218);
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+input[type='radio']:checked:first-child:after {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+}
+input[type='radio']:checked:nth-child(2):after {
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+}
+input[type='radio']:checked:nth-child(3):after {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+}
+input[type='radio']:checked:nth-child(4):after {
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+}

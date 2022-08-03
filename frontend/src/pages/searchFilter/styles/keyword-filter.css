@@ -1,0 +1,44 @@
+.tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 1em;
+    background: rgb(228, 228, 228);
+}
+.tag-container:focus-within {
+    outline: 1px solid rgb(172, 111, 230);
+    background: rgb(241, 241, 241);
+}
+.tag {
+    display: flex;
+    align-items: center;
+    padding: 0.1em 0.4em;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 2px 5px 2px 0px;
+    color: black;
+    background: rgb(201, 144, 255);
+}
+
+.tag-container input {
+    border: none;
+    flex: 1;
+    outline: none;
+    padding: 5;
+    background: transparent;
+    color: black;
+}
+.tag span {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.keyword-filter-close {
+    color: rgb(31, 31, 31);
+}
+
+.tags-label {
+    font-size: 0.9em;
+}

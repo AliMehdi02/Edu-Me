@@ -1,0 +1,62 @@
+.confdel-container {
+    /* position: absolute; */
+    position: fixed;
+    top: 40vh;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    width: 400px;
+    background: rgb(247, 247, 247);
+    border: 2px solid rgb(126, 47, 206);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    filter: drop-shadow(8px 8px 10px #00000007);
+}
+
+.confdel-yousure {
+    font-size: 1.2em;
+}
+
+.confdel-btn {
+    margin: 0em 1em;
+    margin-bottom: 1em;
+    font-size: 1.05em;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 0.3em 1em;
+}
+.confdel-btn:active {
+    filter: brightness(0.8);
+}
+.confdel-cancel-btn {
+    border: 2px solid rgb(121, 121, 121);
+    color: rgb(124, 124, 124);
+}
+.confdel-cancel-btn:hover {
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    background: rgb(214, 214, 214);
+    cursor: pointer;
+}
+.confdel-cont-btn {
+    border: 2px solid rgb(190, 25, 25);
+    color: rgb(190, 25, 25);
+}
+.confdel-cont-btn:hover {
+    border: 1px solid black;
+    color: rgb(255, 255, 255);
+    background: rgb(190, 25, 25);
+    cursor: pointer;
+}
+
+.confdel-bg {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.418);
+}

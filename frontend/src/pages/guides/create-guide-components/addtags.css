@@ -1,0 +1,56 @@
+.new-guide-tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 10px;
+    padding: 0.3em 0.5em;
+    margin: 1em 2em;
+    background: rgb(255, 255, 255);
+}
+.new-guide-tag-container:focus-within {
+    outline: 1px solid rgb(129, 35, 218);
+}
+.new-guide-tag {
+    display: flex;
+    align-items: center;
+    padding: 0.1em 0.4em;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 2px 5px 2px 0px;
+    color: black;
+    background: rgb(201, 144, 255);
+}
+
+.new-guide-tag-container input {
+    border: none;
+    flex: 1;
+    outline: none;
+    padding: 5;
+    background: transparent;
+    color: black;
+}
+.new-guide-tag span {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.new-guide-keyword-filter-close {
+    color: rgb(31, 31, 31);
+}
+
+.new-guide-tags-label {
+    font-size: 0.9em;
+}
+
+.new-guide-tags-label {
+    margin-left: 2em;
+    font-size: 1.01rem;
+    font-weight: bold;
+}
+.new-guide-tags-label::after {
+    /* margin-left: 0.5rem; */
+    content: ' (you can add up to 10)';
+    font-weight: normal;
+    font-size: 0.83rem;
+    color: rgb(51, 51, 51);
+}

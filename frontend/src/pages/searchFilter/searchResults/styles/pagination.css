@@ -1,0 +1,29 @@
+.search-pagination {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    height: 100%;
+}
+
+.search-pagination-page-item {
+    border: 1px solid black;
+    padding: 0.4em 0.8em;
+    margin: 1em 0.05em;
+}
+.search-pagination-page-item:first-child {
+    background: rgb(155, 87, 218);
+}
+
+.search-pagination-page-link {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 1.5em;
+    text-decoration: none;
+    cursor: pointer;
+}
+.search-pagination-page-link:hover {
+    text-decoration: underline;
+}

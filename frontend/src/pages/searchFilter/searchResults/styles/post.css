@@ -1,0 +1,109 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+/* body {
+    width: 50vw;
+} */
+
+.creation-data {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    margin: 0 1em;
+}
+
+.skill-level-data {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    margin: 0 1em;
+    margin-bottom: 0.7em;
+}
+
+.search-post-title {
+    color: rgb(149, 56, 224);
+    /* width: fit-content; */
+    max-width: fit-content;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search-post-title:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.creator-name {
+    margin: 0;
+    padding: 0;
+}
+.last-update {
+    margin: 0;
+    padding: 0;
+}
+.search-results-desc {
+    margin: 0;
+    padding: 0;
+}
+.search-results-topic {
+    margin: 0;
+    padding: 0;
+}
+.search-results-exp-lvl {
+    margin: 0;
+    padding: 0;
+}
+
+.post-container {
+    margin: 1em 0em;
+    border-bottom: 2px solid rgb(137, 60, 201);
+}
+
+.ctrl-guide-btn {
+    background: transparent;
+    width: stretch;
+    height: 2.2em;
+    margin: 0.5em 2em;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.edit-guide-btn {
+    border: 2px solid rgb(137, 60, 201);
+    color:rgb(122, 26, 201);
+}
+.edit-guide-btn:hover {
+    cursor: pointer;
+    background: rgb(137, 60, 201);
+    /* background: linear-gradient(rgb(159, 83, 221),rgb(137, 60, 201), rgb(105, 23, 172)); */
+    border: 1px solid rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+}
+.edit-guide-btn:active {
+    color:rgb(204, 204, 204);
+    background: linear-gradient(rgb(105, 23, 172),rgb(137, 60, 201), rgb(159, 83, 221));
+}
+
+.my-guide-control-btns {
+    display: flex;
+    justify-content: center;
+}
+
+.del-guide-btn {
+    color: rgb(212, 37, 37);
+    border: 2px solid rgb(212, 37, 37);
+}
+.del-guide-btn:hover {
+    cursor: pointer;
+    background: rgb(212, 37, 37);
+    /* background: linear-gradient(rgb(159, 83, 221),rgb(137, 60, 201), rgb(105, 23, 172)); */
+    border: 1px solid rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+}
+.del-guide-btn:active {
+    color:rgb(204, 204, 204);
+    background: linear-gradient(rgb(146, 8, 8),rgb(212, 37, 37), rgb(241, 73, 73));
+}
